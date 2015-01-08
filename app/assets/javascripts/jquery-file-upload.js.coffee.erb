@@ -1,0 +1,13 @@
+<%= if BiolaFrontendToolkit.config.video_upload %>
+  #= require jquery.fileupload-video
+<%= end %>
+
+<%= if BiolaFrontendToolkit.config.audio_upload %>
+  #= require jquery.fileupload-audio
+<%= end %>
+
+<%= if BiolaFrontendToolkit.config.angular_js %>
+  #= require jquery.fileupload-angular
+<%= end %>
+
+#= require_tree ./jquery-file-upload

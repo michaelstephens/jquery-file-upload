@@ -1,4 +1,4 @@
-module RailsJqueryFileUpload
+module JqueryFileUpload
   class Configuration
     attr_accessor :video_upload
     attr_accessor :audio_upload

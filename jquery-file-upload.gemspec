@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'jquery-file-upload/version'
 
 Gem::Specification.new do |s|
-  s.name        = 'rails-jquery-file-upload'
+  s.name        = 'jquery-file-upload'
   s.version     = JqueryFileUpload::VERSION
   s.date        = '2015-01-07'
   s.summary     = "Gem based off Blueimp's of JQuery File Upload"
@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.authors     = ["Michael Stephens"]
   s.email       = 'michael.stephens@biola.edu'
   s.files       = `git ls-files`.split($/)
-  s.homepage    = 'http://rubygems.org/gems/rails-jquery-file-upload'
+  s.homepage    = 'http://rubygems.org/gems/jquery-file-upload'
   s.license     = 'MIT'
 
   s.add_dependency "railties"

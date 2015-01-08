@@ -1,6 +1,8 @@
 JQuery File Upload
 =================
 
+Based off Blueimp's [JQuery File Upload](https://github.com/blueimp/jQuery-File-Upload)
+
 #### Configuration
 
 Create a new file called `/config/initializers/rails_jquery_file_upload.rb`

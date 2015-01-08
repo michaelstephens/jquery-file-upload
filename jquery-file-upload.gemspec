@@ -7,8 +7,8 @@ Gem::Specification.new do |s|
   s.name        = 'jquery-file-upload'
   s.version     = JqueryFileUpload::VERSION
   s.date        = '2015-01-07'
-  s.summary     = "Gem based off Blueimp's of JQuery File Upload"
-  s.description = "A gem based off of Blueimp's Jquery File Upload. https://github.com/blueimp/jQuery-File-Upload"
+  s.summary     = "Gem based off Blueimp's of JQuery File Upload."
+  s.description = "A gem based off of Blueimp's Jquery File Upload."
   s.authors     = ["Michael Stephens"]
   s.email       = 'michael.stephens@biola.edu'
   s.files       = `git ls-files`.split($/)

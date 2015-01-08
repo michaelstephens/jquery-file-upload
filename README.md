@@ -1,7 +1,7 @@
 JQuery File Upload
 =================
 
-Based off Blueimp's [JQuery File Upload](https://github.com/blueimp/jQuery-File-Upload)
+Based off Blueimp's [JQuery File Upload](https://github.com/blueimp/jQuery-File-Upload) (version 9.9.1)
 
 #### Configuration
 

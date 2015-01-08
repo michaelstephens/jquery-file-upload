@@ -23,13 +23,15 @@ Or install it yourself as:
 
 ## Configuration
 
-Create a new file called `/config/initializers/rails_jquery_file_upload.rb`
+Create a new file called `/config/initializers/jquery_file_upload.rb`
 
-    RailsJqueryFileUpload.configure do |config|
-      config.video_upload = true | false # For including the video javascript. Default is false.
-      config.audio_upload = true | false # For including the audio javascript. Default is false.
-      config.angular_js = true | false # For including the angular javascript. Default is false.
-    end
+```ruby
+JqueryFileUpload.configure do |config|
+  config.video = true | false # For including the video javascript. Default is false.
+  config.audio = true | false # For including the audio javascript. Default is false.
+  config.angular_js = true | false # For including the angular javascript. Default is false.
+end
+```
 
 ## Usage for Basic Plus UI
 

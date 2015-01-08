@@ -11,7 +11,7 @@ Pre 1.0.0 is all a work in progress and I am committing as I go and as I add fea
 
 Add this line to your application's Gemfile:
 
-    gem 'jquery-file-upload-rails'
+    gem 'jquery-file-upload'
 
 And then execute:
 
@@ -19,7 +19,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install jquery-file-upload-rails
+    $ gem install jquery-file-upload
 
 ## Configuration
 
@@ -42,7 +42,7 @@ Somewhere in your view require upload and download template
   = render 'jquery_file_upload/basic_plus_ui/download'
 ```
 
-And form to upload files, default uploading field is :file attribute, but you can change it with :as param
+And form to upload files, default uploading field is :file attribute, but you can change it with `:as` param
 ```haml
   = render 'jquery_file_upload/basic_plus_ui/form', file: Image.new, as: :image
 ```
@@ -52,12 +52,23 @@ On the bottom load jquery libraries
   = javascript_include_tag 'jquery-file-upload'
 ```
 
-Or require it in application.js.coffee
+Or require it in `application.js.coffee`
 ```coffee
   #= require jquery-file-upload
 ```
 
+Add css to `application.css.scss`
+```scss
+  *= require jquery-file-upload
+```
+
 ## Change Log
+#### 0.0.6
+- **ADD** Readme Changelog documentation for `0.0.5` :P
+
+##### 0.0.5
+- **ADD** Added css rails require
+- **BUG** Lots of errors with javascript
 
 ##### 0.0.4
 - **FIXED** Configuration files now actually work and mean something!
@@ -71,11 +82,6 @@ Or require it in application.js.coffee
 - **BUG** Configuration does not actually set anything
 - **FIXED** Cleaned up the documentation a bit
 - **FIXED** Javascript no longer 404s
-
-#### 0.0.1
-- Initial commit 
-- **BUG** The javascript 404s
-
 
 [See the full change log](https://github.com/mikestephens/jquery-file-upload/wiki/Change-Log)
 

@@ -12,7 +12,7 @@
 /* jshint nomen:false */
 /* global define, angular */
 
-<% if JqueryFileUpload.config.angular_js %>
+if(<%= JqueryFileUpload.config.angular_js %>) {
   (function (factory) {
       'use strict';
       if (typeof define === 'function' && define.amd) {
@@ -428,4 +428,4 @@
           });
 
   }));
-<% end %>
+}

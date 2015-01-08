@@ -12,7 +12,7 @@
 /* jshint nomen:false */
 /* global define, require, window, document */
 
-<% if JqueryFileUpload.config.video_upload %>
+if(<%= JqueryFileUpload.config.video %>) {
   (function (factory) {
       'use strict';
       if (typeof define === 'function' && define.amd) {
@@ -111,4 +111,4 @@
       });
 
   }));
-<% end %>
+}

@@ -66,11 +66,11 @@ Add css to `application.css.scss`
 #### 0.0.6
 - **ADD** Readme Changelog documentation for `0.0.5` :P
 
-##### 0.0.5
+#### 0.0.5
 - **ADD** Added css rails require
 - **BUG** Lots of errors with javascript
 
-##### 0.0.4
+#### 0.0.4
 - **FIXED** Configuration files now actually work and mean something!
 - **BUG** The way the configuration works is a little bit hacky and I'd like to change it.
 

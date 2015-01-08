@@ -14,6 +14,7 @@ Gem::Specification.new do |s|
   s.files       = `git ls-files`.split($/)
   s.homepage    = 'http://rubygems.org/gems/jquery-file-upload'
   s.license     = 'MIT'
+  s.homepage    = 'https://github.com/mikestephens/jquery-file-upload/'
 
   s.add_dependency "slim",                 "~> 2.0"
 end

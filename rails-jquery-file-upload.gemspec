@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.description = "A gem based off of Blueimp's Jquery File Upload. https://github.com/blueimp/jQuery-File-Upload"
   s.authors     = ["Michael Stephens"]
   s.email       = 'michael.stephens@biola.edu'
-  s.files       = Dir["{app,lib,vendor}/**/*"] + ["LICENSE", "README.md"]
+  s.files       = Dir["{app,lib}/**/*"] + ["LICENSE", "README.md"]
   s.homepage    = 'http://rubygems.org/gems/rails-jquery-file-upload'
   s.license     = 'MIT'
 
